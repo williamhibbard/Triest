@@ -19,5 +19,5 @@ it will run it 20 times, saving the output to a file BaseX.txt or ImprX.txt wher
 sample size.  Each of these texts files will have 20 lines, where each line indicates one
 run, and each prediction is separated by a comma.
 I created a script in Python that runs through these files and graphs them to the images
-that you will find in the Results directory.  If you would like to see this script, please
-contact me at whibbard20@amherst.edu
+that you will find in the Results directory.  This script only runs on a single .txt file,
+so to get all resulting graphs, you will have to run it on every result file.
