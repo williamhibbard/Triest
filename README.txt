@@ -4,6 +4,11 @@
 There are two testing classes.  One is the main class which operates exactly as described
 in the project description.
 
+The classes with the bulk of the work are TriestBase and TriestImprv.  These classes are used
+to predict the number of total triangles in a streamed graph, simulating different amounts of
+available memory.  This means that not every edge can be stored and considered when calculating
+the total number of triangles.
+
 java Main
 As described in the project description:
 "By running java Main with dierent arguments, you can select at runtime which variant of
